@@ -1,5 +1,8 @@
 # Services
 
+[![Build Status](https://travis-ci.com/railroadmedia/js-services.png?branch=master)](https://travis-ci.com/railroadmedia/js-services)
+[![Coverage Status](https://coveralls.io/repos/github/railroadmedia/js-services/badge.svg?branch=master)](https://coveralls.io/github/railroadmedia/js-services?branch=master)
+
 The services module is a simple abstraction of the popular http request library [Axios](https://github.com/axios/axios).
 Axios itself is just a wrapper around the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch),
 what this means is this module can be consumed in the Web, NodeJS, and React Native directly out of the box -  with
