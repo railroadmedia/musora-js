@@ -1,0 +1,17 @@
+{
+  "name": "musora-js",
+  "version": "1.0.0",
+  "description": "MusoraJS is a collaborative initiative to create a cross-platform collection of javascript packages",
+  "main": "index.js",
+  "repository": "https://github.com/railroadmedia/musora-js",
+  "author": "Curtis <curtis@drumeo.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@musora/models": "^0.1.3",
+    "@musora/services": "^0.1.4"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
