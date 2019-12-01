@@ -8,7 +8,7 @@ The only module currently available is the Content Model.
 
 ## Installation
 
-`yarn add @musora/services`
+`yarn add @musora/models`
 
 ## Basic Usage
 
