@@ -1,11 +1,11 @@
 # Introduction
 
-MusoraJS is a collaborative initiative to create a cross-platform collection of javascript packages.
+Musora.js is a collaborative initiative to create a cross-platform collection of javascript packages.
 The purpose of this project is to encourage collaboration between different front-end departments within the development
 team. Since both our Web applications and React Native Mobile applications are developed primarily from a javascript
 layer, we can mutually benefit from an open and shared code-base.
 
-MusoraJS currently consists of two parts: a [complete client api](https://github.com/railroadmedia/js-services)
+Musora.js currently consists of two parts: a [complete client api](https://github.com/railroadmedia/js-services)
 for all Musora-Back End services. And a [simple object-orientated approach](https://github.com/railroadmedia/js-models)
 to handling the responses from our services API.
 
@@ -15,7 +15,7 @@ By utilizing the [Node Package Manager](https://www.npmjs.com/) via [Yarn](https
 package pattern, in combination with the genius design of ES imports/exports, it's never been easier to share,
 collaborate, and publish code than now.
 
-## Using MusoraJS Packages
+## Using Musora.js Packages
 
 `yarn add @musora/<package-name>`
 
@@ -53,7 +53,7 @@ respectively.
 
 ## Creating and Publishing a Package
 
-All MusoraJS packages are to be created as a scoped package under the `@musora/` scope. In order to accomplish this,
+All Musora.js packages are to be created as a scoped package under the `@musora/` scope. In order to accomplish this,
 all you need to do is edit the title in your `package.json` file to look like this:
 ```json
 {

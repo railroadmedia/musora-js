@@ -1,7 +1,7 @@
 {
   "name": "@musora/musora-js",
   "version": "1.0.0",
-  "description": "MusoraJS is a collaborative initiative to create a cross-platform collection of javascript packages",
+  "description": "Musora.js is a collaborative initiative to create a cross-platform collection of javascript packages",
   "main": "index.js",
   "repository": "https://github.com/railroadmedia/musora-js",
   "author": "Curtis <curtis@drumeo.com>",
