@@ -1,8 +1,11 @@
 module.exports = {
-    title: 'MusoraJS',
+    title: 'Musora.js',
     base: '/musora-js/',
-    description: 'MusoraJS is a collaborative initiative to create a cross-platform collection of javascript packages',
+    description: 'Musora.js is a collaborative initiative to create a cross-platform collection of javascript packages',
     evergreen: true,
+    head: [
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Roboto+Condensed:400,400i,700,700i&display=swap' }]
+    ],
     themeConfig: {
         displayAllHeaders: true,
         repo: 'railroadmedia/musora-js',

@@ -1,7 +1,39 @@
-$accentColor = #3eaf7c
-$textColor = #efefef
-$borderColor = #eaecef
-$codeBgColor = #282c34
-$badgeTipColor = #42b983
-$badgeWarningColor = darken(#ffe564, 35%)
-$badgeErrorColor = #DA5961
+html,
+body,
+.navbar,
+.sidebar,
+body .navbar .links
+  background-color:$backgroundColor;
+
+body
+  font-family: $defaultFontFamily;
+
+h1, h2, h3, h4, h5, h6
+  font-weight:700;
+
+.navbar
+  a
+    font-family: $secondaryFontFamily;
+    font-size:16px;
+  a.router-link-active
+    font-weight: 700;
+  .search-box
+    input
+      background-color: $backgroundColor;
+    .suggestions
+      background-color: $backgroundColor;
+      color:$textColor;
+    .suggestion
+      &.focused
+          background-color:#444;
+
+.sidebar
+  .nav-links
+    a
+      font-family: $secondaryFontFamily;
+
+
+.theme-default-content
+  code
+    background-color:$codeBgColor;
+
