@@ -26,6 +26,34 @@ h1, h2, h3, h4, h5, h6
     .suggestion
       &.focused
           background-color:#444;
+  .algolia-search-wrapper
+    .algolia-autocomplete
+      .ds-dataset-1, .ds-dropdown-menu
+        background-color: $backgroundColor;
+        &:before
+          background-color: $backgroundColor;
+      .algolia-docsearch-suggestion
+        background-color:#444;
+        color:$textColor;
+        .algolia-docsearch-suggestion--category-header
+          .algolia-docsearch-suggestion--highlight
+            background:#444;
+            color:$textColor;
+        .algolia-docsearch-suggestion--subcategory-column
+          background:#444;
+          color:$textColor;
+        .algolia-docsearch-suggestion--subcategory-column-text
+          color:$textColor;
+      .algolia-docsearch-suggestion--content
+        background:#444;
+        color:$textColor;
+        .algolia-docsearch-suggestion--text
+          color:$textColor;
+      .algolia-docsearch-suggestion--highlight
+        color:yellow;
+      .ds-cursor
+        .algolia-docsearch-suggestion--content
+          background:#747474!important;
 
 .sidebar
   .nav-links
@@ -36,4 +64,5 @@ h1, h2, h3, h4, h5, h6
 .theme-default-content
   code
     background-color:$codeBgColor;
+
 

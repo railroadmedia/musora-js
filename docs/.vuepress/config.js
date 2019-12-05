@@ -25,5 +25,9 @@ module.exports = {
         ],
         sidebar: 'auto',
         lastUpdated: 'Last Updated',
+        algolia: {
+            apiKey: '0cd1313cc322df6bfe4c5af28dc64620',
+            indexName: 'musora-js'
+        }
     },
 };
